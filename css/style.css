@@ -140,7 +140,6 @@ a.button {
 .col-left {
   float: left;
   width: 32%;
-  background-color: red;
   padding: 5px;
   border-radius: 5px;
 }
@@ -148,7 +147,6 @@ a.button {
 .col-center {
   float: left;
   width: 32%;
-  background-color: red;
   padding: 5px;
   border-radius: 5px;
   margin: 0 2%;
@@ -157,7 +155,53 @@ a.button {
 .col-right {
   float: left;
   width: 32%;
-  background-color: red;
   padding: 5px;
   border-radius: 5px;
 }
+
+.container img {
+  height: 150px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container h2 {
+  margin-bottom: 5%;
+  color: green;
+}
+.container p {
+  color: #187c9c;
+}
+hr {
+  margin: 10px;
+}
+.last {
+  width: 85%;
+  height: 100%;
+  margin: 35px auto;
+}
+.last::after {
+  content:'';
+  display:table;
+  clear: both;
+
+}
+.palloncino {
+  width: 50%;
+  float: left;
+  height: 300px;
+}
+.text {
+  width: 28%;
+  float: left;
+  margin-left: 7%
+}
+
+.text p {
+  margin-top: 15px;
+}
+ .text a {
+   margin-top: 15px;
+   color: blue;
+   line-height: 4;
+ }
