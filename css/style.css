@@ -50,23 +50,18 @@ body {
   width: 20%;
 }
 
-.page-main {
-  background-color:#bd9b9b;
+.page {
+  background-color:#f1cece;
+;
   text-align: center;
   padding:25px;
   line-height: 35px;
 
 }
 
-.page-main h3 {
+.page h3 {
   color:grey;
 }
-
-
-.page-footer {
-  background-color: green;
-}
-
 
 .header-nav::after {
   content: '';
@@ -125,4 +120,38 @@ a.button {
 }
 .button-green {
   background-color: green;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container ::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.col-left {
+  float: left;
+  width: 20%;
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.col-center {
+  float: left;
+  width: 20%;
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.col-right {
+  float: left;
+  width: 20%;
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
 }
